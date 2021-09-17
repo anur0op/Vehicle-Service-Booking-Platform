@@ -7,6 +7,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { WorkshopregisterComponent } from './components/workshop/workshopregister/workshopregister.component';
 import { HttpClientModule,HttpClient  } from '@angular/common/http';
+import { WelcomeworkshopComponent } from './components/workshop/welcomeworkshop/welcomeworkshop.component';
 
 
 
@@ -15,7 +16,8 @@ import { HttpClientModule,HttpClient  } from '@angular/common/http';
 @NgModule({
   declarations: [
     AppComponent,
-    WorkshopregisterComponent
+    WorkshopregisterComponent,
+    WelcomeworkshopComponent
   ],
   imports: [
     FormsModule,
